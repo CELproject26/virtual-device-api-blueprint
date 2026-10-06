@@ -21,5 +21,4 @@ services:
 
 databases:
   - name: virtual-device-db
-    engine: postgresql
-    plan: free
+       plan: free
