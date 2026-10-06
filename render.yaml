@@ -21,4 +21,4 @@ services:
 
 databases:
   - name: virtual-device-db
-       plan: free
+    plan: free
