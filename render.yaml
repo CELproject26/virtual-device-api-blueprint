@@ -2,7 +2,7 @@
 # render deploy -y render.yaml
 
 services:
-  - type: web_service
+  - type: web
     name: virtual-device-api-blueprint
     env: docker
     plan: free
@@ -22,4 +22,4 @@ services:
 databases:
   - name: virtual-device-db
     engine: postgresql
-    plan: readonly
+    plan: free
